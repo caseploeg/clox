@@ -1,0 +1,9 @@
+fun middle() {
+    var c = 3;
+    fun inner() {
+        print c;
+    }
+    inner();
+}
+
+middle();
